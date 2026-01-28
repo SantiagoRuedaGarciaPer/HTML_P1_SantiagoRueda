@@ -14,7 +14,7 @@
 }
 
 .container div{
-    margin: 4px;
+    margin: 10px;
 
     border-radius: 15px;
 }
@@ -34,4 +34,6 @@
 
 img{
     width: 100%;
+    height: 100%;
+    border-radius: 15px;
 }
