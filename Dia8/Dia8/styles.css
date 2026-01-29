@@ -1,0 +1,16 @@
+@keyframes walking{
+    0% {background-image: url(./media/man_walking1.png);}
+    16% {background-image: url(./media/man_walking2.png)}
+    32% {background-image: url(./media/man_walking3.png)}
+    48% {background-image: url(./media/man_walking4.png)}
+    64% {background-image: url(./media/man_walking5.png)}
+    100% {background-image: url(./media/man_walking6.png)}
+}
+
+.man{
+    width: 150px;
+    height: 200px;
+    animation: walking 4s;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
